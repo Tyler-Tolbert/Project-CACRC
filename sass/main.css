@@ -62,7 +62,14 @@ nav {
   nav .active {
     border-bottom: 2px solid #38ef7d; }
 
-/* line 60, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+/* line 59, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+a {
+  color: palegreen; }
+  /* line 62, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+  a:hover, a:active {
+    color: palegreen; }
+
+/* line 69, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
 .bottomLine {
   width: 100%;
   height: 30vh;
@@ -71,22 +78,19 @@ nav {
   left: 0;
   opacity: 0; }
 
-/* line 70, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
-.bg-image-1 {
-  background-image: url(../../img/Recycle-2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+/* line 79, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+.first-section {
+  opacity: 0; }
 
-/* line 77, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+/* line 83, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
 .js-show {
   opacity: 1; }
 
-/* line 81, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+/* line 87, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
 .js-hide {
   opacity: 0; }
 
-/* line 89, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+/* line 95, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
 #main-footer {
   background: #11998e;
   /* fallback for old browsers */
@@ -96,14 +100,14 @@ nav {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #F8FAFD;
   text-align: center; }
-  /* line 93, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+  /* line 99, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
   #main-footer .nav {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     grid-gap: 1rem;
     align-items: center; }
-    /* line 101, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+    /* line 107, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
     #main-footer .nav__link:link, #main-footer .nav__link:visited {
       color: #fff;
       text-decoration: none;
@@ -112,38 +116,38 @@ nav {
       padding: 1.5rem;
       display: block;
       transition: all .2s; }
-    /* line 113, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+    /* line 119, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
     #main-footer .nav__link:hover, #main-footer .nav__link:active {
       background-color: #fff;
       color: #11998e;
       font-weight: bold;
       transform: translateY(-0.4rem); }
-  /* line 125, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+  /* line 131, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
   #main-footer .copyright {
     margin-top: 1.5rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     width: 70%; }
-  /* line 133, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+  /* line 139, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
   #main-footer .social {
     display: flex;
     justify-content: center; }
-    /* line 137, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+    /* line 143, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
     #main-footer .social a {
       color: #F8FAFD;
       transition: .1s;
       margin: 0 .8rem;
       opacity: 0.8; }
-      /* line 143, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+      /* line 149, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
       #main-footer .social a:hover {
         transform: scale(1.3);
         opacity: 1; }
-  /* line 150, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+  /* line 156, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
   #main-footer .sites {
     opacity: 0; }
   @media only screen and (max-width: 62rem) {
-    /* line 155, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
+    /* line 161, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/_base.scss */
     #main-footer .nav {
       grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr)); } }
 
@@ -303,11 +307,7 @@ nav {
   #showcase-2 .heading-sub {
     opacity: 0; }
 
-/* line 42, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
-#history-section .history-info {
-  opacity: 0; }
-
-/* line 50, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 44, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #store-section {
   background: #11998e;
   /* fallback for old browsers */
@@ -319,46 +319,43 @@ nav {
   text-align: center;
   padding-top: 7rem;
   padding-bottom: 7rem; }
-  /* line 57, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 49, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #store-section .lead:nth-child(4) {
     font-weight: bold; }
-  /* line 61, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 53, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #store-section h1 {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase; }
-  /* line 67, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
-  #store-section a {
-    color: lightgreen; }
-  /* line 71, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 59, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #store-section .store-info {
     opacity: 0; }
 
-/* line 83, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 71, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #wwr-section .fa-thumbs-up {
   color: #00cc66; }
 
-/* line 87, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 75, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #wwr-section .fa-thumbs-down {
   color: #FA3E3E; }
 
-/* line 91, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 79, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #wwr-section h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 3rem; }
 
-/* line 97, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 85, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #wwr-section h3 {
   font-size: 3rem; }
 
-/* line 101, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 89, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #wwr-section li {
   list-style: none;
   font-size: 1.3rem;
   padding-right: 2rem; }
 
-/* line 112, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 100, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #qehs-section {
   background: #11998e;
   /* fallback for old browsers */
@@ -367,42 +364,87 @@ nav {
   background: linear-gradient(to top left, #38ef7d, #11998e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #F8FAFD; }
-  /* line 116, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 104, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #qehs-section .row {
     padding: 2rem 0; }
-  /* line 120, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 108, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #qehs-section h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem; }
-  /* line 126, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 114, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #qehs-section ul {
     line-height: 1.5rem; }
-    /* line 129, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+    /* line 117, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
     #qehs-section ul li {
       margin-bottom: 1.5rem; }
-  /* line 134, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 122, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #qehs-section .qehs {
     opacity: 0; }
 
-/* line 144, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 132, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #staff-section h2 {
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: bold; }
 
-/* line 151, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+/* line 139, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
 #staff-section h3 {
   font-weight: bold; }
 
 @media only screen and (max-width: 62rem) {
-  /* line 156, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 144, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #staff-section .exec-pic-1 {
     margin-bottom: 2rem; }
-  /* line 160, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
+  /* line 148, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_about.scss */
   #staff-section h3,
   #staff-section p {
     text-align: center; } }
+
+/* line 2, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+#e-scrap-section h1 {
+  text-transform: uppercase; }
+
+/* line 6, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+#e-scrap-section h3 {
+  font-weight: bold; }
+
+/* line 14, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+#donation-section {
+  background: #11998e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #38ef7d, #11998e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #38ef7d, #11998e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #F8FAFD;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  /* line 19, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+  #donation-section h1 {
+    font-weight: bold;
+    text-transform: uppercase; }
+  /* line 24, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+  #donation-section h2 {
+    text-decoration: underline; }
+  /* line 28, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+  #donation-section h3 {
+    margin-bottom: 1rem; }
+  /* line 32, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+  #donation-section ul {
+    list-style: square;
+    text-align: left; }
+
+/* line 40, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+#location-section {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center; }
+  /* line 44, /Users/tylertolbert/Documents/Web Design/Project CACRC/sass/pages/_e-scrap.scss */
+  #location-section a {
+    color: #38ef7d; }
 
 /*# sourceMappingURL=main.css.map */

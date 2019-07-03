@@ -59,8 +59,9 @@ nav {
 a {
     color: $color-link;
     
-    &:hover {
-        color: $color-primary-light;
+    &:hover,
+    &:active {
+        color: $color-link;
     }
 }
 
